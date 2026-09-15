@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Admin | ZBT Farmhouse Faisalabad</title>
+    <meta name="title" content="Admin | ZBT Farmhouse Faisalabad">
+    <meta name="description" content="ZBT Farmhouse Faisalabad - Luxury resort, filtered pool, AC suites, wedding venue, and photoshoot spot.">
+    <meta name="keywords" content="ZBT Farmhouse, Faisalabad resort, pool party, wedding lawn">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="ZBT Farmhouse Faisalabad">
+    <link rel="canonical" href="https://zbtfarmhouse.com/admin.html">
+
+    <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zbtfarmhouse.com/admin.html">
+    <meta property="og:title" content="Admin | ZBT Farmhouse Faisalabad">
+    <meta property="og:description" content="ZBT Farmhouse Faisalabad - Luxury resort, filtered pool, AC suites, wedding venue, and photoshoot spot.">
+    <meta property="og:image" content="https://zbtfarmhouse.com/assets/images/zbt_real_official_signpost_trees.jpg">
+    <meta property="og:site_name" content="ZBT Farmhouse Faisalabad">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://zbtfarmhouse.com/admin.html">
+    <meta name="twitter:title" content="Admin | ZBT Farmhouse Faisalabad">
+    <meta name="twitter:description" content="ZBT Farmhouse Faisalabad - Luxury resort, filtered pool, AC suites, wedding venue, and photoshoot spot.">
+    <meta name="twitter:image" content="https://zbtfarmhouse.com/assets/images/zbt_real_official_signpost_trees.jpg">
+
+
+    <!-- JSON-LD Structured Data (Google Search Rich Snippet) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Resort",
+      "name": "ZBT Farmhouse Faisalabad",
+      "image": "https://zbtfarmhouse.com/assets/images/zbt_real_official_signpost_trees.jpg",
+      "@id": "https://zbtfarmhouse.com/",
+      "url": "https://zbtfarmhouse.com/",
+      "telephone": "+923338666964",
+      "priceRange": "PKR 8,000 - PKR 205,000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Main Canal Road",
+        "addressLocality": "Faisalabad",
+        "addressRegion": "Punjab",
+        "postalCode": "38000",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.4187,
+        "longitude": 73.0791
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://www.instagram.com/zbt_farm"
+      ]
+    }
+    </script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; display: none; }
+        .sidebar { min-height: 100vh; background-color: #0f172a; color: white; padding-top: 20px; }
+        .nav-pills .nav-link { color: #cbd5e1; border-radius: 8px; margin-bottom: 5px; }
+        .nav-pills .nav-link.active { background-color: #3b82f6; color: white; }
+        .card { border: none; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .table th { background-color: #f1f5f9; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; color: #475569; }
+        .table td { vertical-align: middle; font-size: 0.95rem; }
+        .status-badge { padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+        .status-Pending { background-color: #fef3c7; color: #d97706; }
+        .status-Confirmed { background-color: #d1fae5; color: #059669; }
+        .status-Cancelled { background-color: #fee2e2; color: #dc2626; }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-2 sidebar d-flex flex-column p-3">
+                <div class="text-center mb-4">
+                    <h5 class="fw-bold">ZBT Admin</h5>
+                    <small class="text-muted">Management Portal</small>
+                </div>
+                <ul class="nav nav-pills flex-column mb-auto" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active w-100 text-start" id="pills-bookings-tab" data-bs-toggle="pill" data-bs-target="#pills-bookings" type="button" role="tab"><i class="fa-solid fa-calendar-check me-2"></i> Bookings</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link w-100 text-start" id="pills-contacts-tab" data-bs-toggle="pill" data-bs-target="#pills-contacts" type="button" role="tab"><i class="fa-solid fa-envelope me-2"></i> Contact Inquiries</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link w-100 text-start" id="pills-collabs-tab" data-bs-toggle="pill" data-bs-target="#pills-collabs" type="button" role="tab"><i class="fa-solid fa-handshake me-2"></i> Collaborations</button>
+                    </li>
+                </ul>
+                <div class="mt-auto">
+                    <button class="btn btn-outline-danger w-100" onclick="logout()"><i class="fa-solid fa-right-from-bracket me-2"></i> Exit Portal</button>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="col-md-10 p-4">
+                <div class="tab-content" id="pills-tabContent">
+                    
+                    <!-- Bookings Tab -->
+                    <div class="tab-pane fade show active" id="pills-bookings" role="tabpanel">
+                        <h3 class="mb-4 fw-bold">Recent Bookings</h3>
+                        
+                        <!-- Manual Slot Blocker -->
+                        <div class="card p-3 mb-4 border-warning shadow-sm" style="background-color: #fffbeb;">
+                            <h5 class="fw-bold text-warning-emphasis"><i class="fa-solid fa-lock me-2"></i>Manual Slot Blocker</h5>
+                            <p class="small text-muted mb-3">If a customer books via WhatsApp, block their slot here so no one else can book it online.</p>
+                            <form id="blockSlotForm" class="d-flex gap-3 align-items-center flex-wrap">
+                                <div>
+                                    <label class="form-label small fw-bold mb-1">Date</label>
+                                    <input type="date" id="blockDate" class="form-control form-control-sm" required>
+                                </div>
+                                <div>
+                                    <label class="form-label small fw-bold mb-1">Time Slot</label>
+                                    <select id="blockSlot" class="form-select form-select-sm" required>
+                                        <option value="Morning">Morning</option>
+                                        <option value="Afternoon">Afternoon</option>
+                                        <option value="Evening">Evening</option>
+                                        <option value="Night">Night Stay</option>
+                                    </select>
+                                </div>
+                                <div class="align-self-end">
+                                    <button type="submit" class="btn btn-warning btn-sm fw-bold">Block Slot</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="card p-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Ref</th>
+                                            <th>Submitted On</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Event Date</th>
+                                            <th>Package</th>
+                                            <th>Guests</th>
+                                            <th>Total (PKR)</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="bookingsTableBody">
+                                        <tr><td colspan="9" class="text-center py-4"><i class="fa-solid fa-spinner fa-spin"></i> Loading...</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contacts Tab -->
+                    <div class="tab-pane fade" id="pills-contacts" role="tabpanel">
+                        <h3 class="mb-4 fw-bold">Contact Inquiries</h3>
+                        <div class="card p-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                            <th>Message</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="contactsTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collaborations Tab -->
+                    <div class="tab-pane fade" id="pills-collabs" role="tabpanel">
+                        <h3 class="mb-4 fw-bold">Brand Collaborations</h3>
+                        <div class="card p-3">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Profile Link</th>
+                                            <th>WhatsApp Number</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="collabsTableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Simple Hidden Password Lock
+        const secretPass = "zbtadmin786";
+        const storedPass = sessionStorage.getItem("adminAuth");
+        
+        if (storedPass !== secretPass) {
+            let attempt = prompt("Please enter the admin password to access the portal:");
+            if (attempt === secretPass) {
+                sessionStorage.setItem("adminAuth", secretPass);
+                document.body.style.display = "block";
+                loadDashboardData();
+            } else {
+                alert("Access Denied.");
+                window.location.href = "index.html";
+            }
+        } else {
+            document.body.style.display = "block";
+            loadDashboardData();
+        }
+
+        function logout() {
+            sessionStorage.removeItem("adminAuth");
+            window.location.href = "index.html";
+        }
+
+        function loadDashboardData() {
+            // Load Bookings
+            fetch('/api/bookings')
+                .then(res => res.json())
+                .then(data => {
+                    const tbody = document.getElementById('bookingsTableBody');
+                    tbody.innerHTML = '';
+                    if (!data.bookings || data.bookings.length === 0) {
+                        tbody.innerHTML = '<tr><td colspan="9" class="text-center text-muted py-4">No bookings found.</td></tr>';
+                        return;
+                    }
+                    data.bookings.forEach(b => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td class="fw-bold">#${b.booking_ref}</td>
+                            <td><small class="text-muted">${b.created_at || 'N/A'}</small></td>
+                            <td>${b.customer_name}</td>
+                            <td><a href="https://wa.me/${b.customer_phone.replace(/\D/g,'')}" target="_blank" class="text-success"><i class="fa-brands fa-whatsapp"></i> ${b.customer_phone}</a></td>
+                            <td>${b.event_date}</td>
+                            <td><span class="badge bg-secondary">${b.booking_type}</span></td>
+                            <td>${b.guests_count}</td>
+                            <td class="fw-bold text-success">${parseInt(b.total_price).toLocaleString()}</td>
+                            <td><span class="status-badge status-${b.status}" id="status-badge-${b.id}">${b.status}</span></td>
+                            <td class="d-flex gap-2">
+                                <select class="form-select form-select-sm" style="width: auto;" onchange="updateStatus(${b.id}, this.value)">
+                                    <option value="Pending" ${b.status==='Pending'?'selected':''}>Pending</option>
+                                    <option value="Confirmed" ${b.status==='Confirmed'?'selected':''}>Confirmed</option>
+                                    <option value="Cancelled" ${b.status==='Cancelled'?'selected':''}>Cancelled</option>
+                                </select>
+                                <button class="btn btn-sm btn-outline-danger" onclick="deleteBooking(${b.id})" title="Delete Booking"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                });
+
+            // Load Contacts
+            fetch('/api/contacts')
+                .then(res => res.json())
+                .then(data => {
+                    const tbody = document.getElementById('contactsTableBody');
+                    tbody.innerHTML = '';
+                    if (!data.contacts || data.contacts.length === 0) {
+                        tbody.innerHTML = '<tr><td colspan="5" class="text-center text-muted py-4">No inquiries found.</td></tr>';
+                        return;
+                    }
+                    data.contacts.forEach(c => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td>${c.created_at ? c.created_at.split(' ')[0] : 'N/A'}</td>
+                            <td class="fw-bold">${c.name}</td>
+                            <td><a href="https://wa.me/${c.phone.replace(/\\D/g,'')}" target="_blank" class="text-success"><i class="fa-brands fa-whatsapp"></i> ${c.phone}</a></td>
+                            <td>${c.email || 'N/A'}</td>
+                            <td><small>${c.message}</small></td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                });
+
+            // Load Collaborations
+            fetch('/api/collaborations')
+                .then(res => res.json())
+                .then(data => {
+                    const tbody = document.getElementById('collabsTableBody');
+                    tbody.innerHTML = '';
+                    if (!data.collaborations || data.collaborations.length === 0) {
+                        tbody.innerHTML = '<tr><td colspan="4" class="text-center text-muted py-4">No collaborations found.</td></tr>';
+                        return;
+                    }
+                    data.collaborations.forEach(c => {
+                        const tr = document.createElement('tr');
+                        let profileHref = c.profile_link;
+                        if (!profileHref.startsWith('http')) profileHref = 'https://' + profileHref;
+                        tr.innerHTML = `
+                            <td>${c.created_at ? c.created_at.split(' ')[0] : 'N/A'}</td>
+                            <td><a href="${profileHref}" target="_blank" class="text-primary fw-bold"><i class="fa-brands fa-instagram"></i> View Profile</a></td>
+                            <td><a href="https://wa.me/${c.phone.replace(/\\D/g,'')}" target="_blank" class="text-success"><i class="fa-brands fa-whatsapp"></i> ${c.phone}</a></td>
+                            <td><a href="https://wa.me/${c.phone.replace(/\\D/g,'')}?text=Hi!%20We%20saw%20your%20collaboration%20request." target="_blank" class="btn btn-sm btn-success">Message Creator</a></td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                });
+        }
+
+        function updateStatus(id, newStatus) {
+            fetch('/api/bookings/' + id + '/status', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status: newStatus })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if(data.success) {
+                    const badge = document.getElementById('status-badge-' + id);
+                    badge.className = 'status-badge status-' + newStatus;
+                    badge.textContent = newStatus;
+                } else {
+                    alert('Error updating status');
+                }
+            });
+        }
+
+        function deleteBooking(id) {
+            if(confirm("Are you sure you want to permanently delete this booking?")) {
+                fetch('/api/bookings/' + id, {
+                    method: 'DELETE'
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if(data.success) {
+                        alert(data.message);
+                        window.location.reload();
+                    } else {
+                        alert('Error deleting booking');
+                    }
+                });
+            }
+        }
+
+        // Handle Manual Slot Blocking
+        document.getElementById('blockSlotForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const event_date = document.getElementById('blockDate').value;
+            const slot = document.getElementById('blockSlot').value;
+            const btn = e.target.querySelector('button');
+            btn.disabled = true;
+            btn.textContent = "Blocking...";
+
+            fetch('/api/admin/block', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ event_date, slot })
+            })
+            .then(res => res.json())
+            .then(data => {
+                btn.disabled = false;
+                btn.textContent = "Block Slot";
+                if (data.success) {
+                    alert(data.message);
+                    window.location.reload();
+                } else {
+                    alert("Error: " + data.error);
+                }
+            })
+            .catch(err => {
+                btn.disabled = false;
+                btn.textContent = "Block Slot";
+                alert("Connection error.");
+            });
+        });
+    </script>
+
+    <!-- ZBT Admin Dashboard Modal -->
+    <div class="modal fade" id="adminModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 overflow-hidden shadow-lg bg-dark text-white">
+                <div class="modal-header border-0 bg-dark p-4">
+                    <h5 class="modal-title fw-bold text-gold"><i class="fa-solid fa-gauge-high me-2"></i> ZBT Farmhouse Admin Booking Dashboard</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" id="closeAdminBtn"></button>
+                </div>
+                <div class="modal-body p-4 bg-black">
+                    <!-- Stats Counter Row -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-3">
+                            <div class="p-3 bg-dark border border-secondary rounded-3 text-center">
+                                <span class="small text-white-50 d-block">TOTAL BOOKINGS</span>
+                                <span class="fs-2 fw-extrabold text-gold" id="adminTotalBookings">0</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-dark border border-secondary rounded-3 text-center">
+                                <span class="small text-white-50 d-block">ESTIMATED REVENUE</span>
+                                <span class="fs-2 fw-extrabold text-success" id="adminTotalRevenue">PKR 0</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-dark border border-secondary rounded-3 text-center">
+                                <span class="small text-white-50 d-block">CONFIRMED RESERVATIONS</span>
+                                <span class="fs-2 fw-extrabold text-info" id="adminConfirmedBookings">0</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-3 bg-dark border border-secondary rounded-3 text-center">
+                                <span class="small text-white-50 d-block">PENDING INQUIRIES</span>
+                                <span class="fs-2 fw-extrabold text-warning" id="adminPendingBookings">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Actions Bar -->
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="fw-bold text-white mb-0"><i class="fa-solid fa-list-check me-2 text-gold"></i> Live Customer Reservations Table</h6>
+                        <button type="button" class="btn btn-outline-warning btn-sm rounded-pill" id="exportCsvBtn">
+                            <i class="fa-solid fa-file-excel me-1"></i> Export CSV Report
+                        </button>
+                    </div>
+
+                    <!-- Bookings Table -->
+                    <div class="table-responsive rounded-3 border border-secondary">
+                        <table class="table table-dark table-hover mb-0 align-middle">
+                            <thead class="table-secondary text-uppercase small">
+                                <tr>
+                                    <th>Booking Ref</th>
+                                    <th>Customer Name</th>
+                                    <th>WhatsApp Phone</th>
+                                    <th>Package</th>
+                                    <th>Event Date</th>
+                                    <th>Guests</th>
+                                    <th>Total Price</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="adminBookingsTbody">
+                                <tr>
+                                    <td colspan="9" class="text-center py-4 text-white-50">Loading booking records...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 bg-dark p-3 justify-content-between">
+                    <span class="small text-white-50"><i class="fa-solid fa-shield-halved me-1 text-gold"></i> ZBT Executive Management Database</span>
+                    <button type="button" class="btn btn-secondary btn-sm rounded-pill px-4" data-bs-dismiss="modal">Close Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
